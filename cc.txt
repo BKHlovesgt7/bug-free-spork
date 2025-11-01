@@ -18,7 +18,7 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:Make a bunny
+		name:Make a bunnys
 		desc:Click this little bunny to get more bunnies!
 		on click:anim icon wobble
 		on click:yield 1 bunny
