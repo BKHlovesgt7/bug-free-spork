@@ -4,7 +4,7 @@
     position: absolute;
     left: -128px;
     top: -128px;
-    background: url(img/empty.png);
+    background: url(https://raw.githubusercontent.com/BKHlovesgt7/bug-free-spork/refs/heads/main/empty.png);
     cursor: pointer;
     z-index: 10000;
     border-radius: 128px;
