@@ -23,9 +23,9 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:https://raw.githubusercontent.com/BKHlovesgt7/bug-free-spork/refs/heads/main/PerfectCookiesmall.png
+		icon:https://static.wikia.nocookie.net/cookieclicker/images/5/5a/PerfectCookie.png
 		no text
-		class:bigButton hasFlares
+		class:hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
