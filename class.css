@@ -3,8 +3,8 @@
     width: 256px;
     height: 256px;
     position: absolute;
-    left: -128px;
-    top: -128px;
+    left: 128px;
+    top: 128px;
     background: url(https://raw.githubusercontent.com/BKHlovesgt7/bug-free-spork/refs/heads/main/empty.png);
     cursor: pointer;
     z-index: 10000;
