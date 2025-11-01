@@ -12,7 +12,6 @@ Settings
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:https://raw.githubusercontent.com/BKHlovesgt7/bug-free-spork/refs/heads/main/class.css
-	stylesheet:stuff/bigBlue.css
 
 Layout
 	use default
