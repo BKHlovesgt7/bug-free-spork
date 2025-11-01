@@ -11,8 +11,7 @@ Settings
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
-	stylesheet:https://raw.githubusercontent.com/BKHlovesgt7/bug-free-spork/refs/heads/main/class.css
-
+	stylesheet:stuff/bigBlue.css
 
 Layout
 	use default
@@ -24,9 +23,9 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
+		icon:https://raw.githubusercontent.com/BKHlovesgt7/bug-free-spork/refs/heads/main/PerfectCcookie.png
 		no text
-		class:bigCookie
+		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
