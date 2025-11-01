@@ -1,5 +1,7 @@
 .thing.bigCookie 
 {
+	left:50%;
+	top:50%;
 	width:256px;
 	height:256px;
 	position:absolute;
