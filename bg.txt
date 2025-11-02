@@ -50,6 +50,7 @@ Shinies
   name:Lucky gnome
 	on click:log Woop
 	frequency:1
+	duration:13
 	icon:stuff/luckyBunny.png
 	class:bigButton
   on click:
