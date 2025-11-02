@@ -363,7 +363,7 @@ Achievements
 		name:Run rabbit run
 		desc:Have <b>1</b> bunny.
 		req:1 bunny
-		icon:icons[2,4] icons[0,2] icons[0,6]
+		icon:https://static.wikia.nocookie.net/cookieclicker/images/5/58/CP1_-_Tiny_cookie.png
 	*bunnyAchiev2
 		name:Bunniest home videos
 		desc:Have <b>1000</b> bunnies.
