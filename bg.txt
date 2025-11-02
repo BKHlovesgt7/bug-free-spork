@@ -51,7 +51,7 @@ Shinies
 	on click:log Woop
 	frequency:1
 	duration:13 * $dur
-	$dur=0.95^(bunnies:ps-1);//5% shorter for every other golden cookie on the screen
+	$dur=pow(0.95,bunnies:ps-1);//5% shorter for every other golden cookie on the screen
 
 	icon:stuff/luckyBunny.png
 	class:bigButton
