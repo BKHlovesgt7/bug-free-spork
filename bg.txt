@@ -46,27 +46,29 @@ Resources
 		hidden when 0
 		
 Shinies
-	*luckyBunny
-		on click:log Woop
-		movement:onRight moveLeft fade bounce:0.05
-		frequency:60
-		frequency variation:30
-		icon:stuff/luckyBunny.png
-		class:bigButton
-		on click:
-			$boost=1
-			if (have clover) $boost=4
-			if (chance(25%))
-				//get at least 7, or between 1 and 3 minutes of our bunny production
-				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
-				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
-				yield $amount bunnies
-			else
-				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
-				yield $amount goldenCarrot
-			end
+*luckyBunny
+  name:Lucky gnome
+	on click:log Woop
+	movement:onRight moveLeft fade bounce:0.05
+	frequency:60
+	frequency variation:30
+	icon:stuff/luckyBunny.png
+	class:bigButton
+  on click:
+		$boost=1
+		if (have clover) $boost=4
+		if (chance(25%))
+			//get at least 7, or between 1 and 3 minutes of our bunny production
+			$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
+			toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
+			yield $amount bunnies
+		else
+			$amount=1*$boost
+			toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
+			yield $amount goldenCarrot
 		end
+	end
+  movement:anywhere fade bounce moveRandom
 
 Buildings
 	*TEMPLATE
