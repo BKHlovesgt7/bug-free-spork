@@ -67,7 +67,7 @@ Shinies
 			yield $amount goldenCarrot
 		end
 	end
-  movement:anywhere fade
+  movement:anywhere fade growShrink
 
 Buildings
 	*TEMPLATE
