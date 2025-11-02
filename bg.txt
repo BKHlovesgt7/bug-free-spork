@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Cookie Clicker
 	by:Orteil and BKHlovesgames
-	desc:This is a simple idle game.<//>Make bunnies and shoot for the stars!
+	desc:This is a simple idle game.<//>Bake Cookies and shoot for the stars!
 	created:7/25/2017
 	updated:11/1/2025
 	version:2
