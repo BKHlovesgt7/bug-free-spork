@@ -41,7 +41,7 @@ Resources
 	*goldenCarrot|goldenCarrots
 		name:Golden carrot|Golden carrots
 		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
-		icon:icons[0,1]
+		icon:https://static.wikia.nocookie.net/cookieclicker/images/5/50/GoldCookie.png
 		class:noBackground
 		hidden when 0
 		
