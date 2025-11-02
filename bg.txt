@@ -57,8 +57,8 @@ Shinies
 		$muti=1
 		if (have clover) $muti=4
 		if (chance(43.73435%))
-		$bankedReward = (0.15 * bunnies + 13) * muti
-		$cpsReward = (bunnies:ps * 900 + 13) * muti
+		$bankedReward = (0.15 * bunnies + 13) * $muti
+		$cpsReward = (bunnies:ps * 900 + 13) * $muti
 
 			//get at least 7, or between 1 and 3 minutes of our bunny production
 			$amount=min($bankedReward,$cpsReward)
