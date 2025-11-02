@@ -49,8 +49,7 @@ Shinies
 *luckyBunny
   name:Lucky gnome
 	on click:log Woop
-	movement:onRight moveLeft fade bounce:0.05
-	frequency:60
+	frequency:1
 	frequency variation:30
 	icon:stuff/luckyBunny.png
 	class:bigButton
