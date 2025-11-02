@@ -50,17 +50,18 @@ Shinies
   name:Lucky gnome
 	on click:log Woop
 	frequency:1
-	duration:13 * $dur
-	$dur=pow(0.95,luckyBunny.n-1);//5% shorter for every other golden cookie on the screen
-
+	duration:13
 	icon:stuff/luckyBunny.png
 	class:bigButton
   on click:
-		$boost=1
-		if (have clover) $boost=4
+		$muti=1
+		if (have clover) $muti=4
 		if (chance(43.73435%))
+		$bankedReward = (0.15 * bunnies + 13) * $muti
+		$cpsReward = (bunnies:ps * 900 + 13) * $muti
+
 			//get at least 7, or between 1 and 3 minutes of our bunny production
-			$amount=bunnies:ps*77*$boost
+			$amount=min($bankedReward,$cpsReward)
 			toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
 			yield $amount bunnies
 		else
