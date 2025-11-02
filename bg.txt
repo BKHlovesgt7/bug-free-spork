@@ -50,7 +50,9 @@ Shinies
   name:Lucky gnome
 	on click:log Woop
 	frequency:1
-	duration:13
+	duration:13 * $dur
+	$dur=pow(0.95,Game.luckyBunny.n-1);//5% shorter for every other golden cookie on the screen
+
 	icon:stuff/luckyBunny.png
 	class:bigButton
   on click:
