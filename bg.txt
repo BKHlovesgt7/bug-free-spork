@@ -4,7 +4,7 @@ Let's make a game!
 	desc:This is a simple idle game.<//>Bake Cookies and shoot for the stars!
 	created:7/25/2017
 	updated:11/1/2025
-	version:2
+	version:3
 
 Settings
 	background:stuff/meadow.jpg
